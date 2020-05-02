@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4c61bc2a-a38d-4ca5-a089-00d56fa31490</ProjectGuid>
+    <ProjectGuid>c354255f-1edc-4711-b6c3-49b67030f19d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NetworkingTopDownAnswer.py</StartupFile>
+    <StartupFile>WebServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>NetworkingTopDownAnswer</Name>
-    <RootNamespace>NetworkingTopDownAnswer</RootNamespace>
+    <Name>WebServer</Name>
+    <RootNamespace>WebServer</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NetworkingTopDownAnswer.py" />
+    <Compile Include="WebServer.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
