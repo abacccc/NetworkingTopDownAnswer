@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WebServer", "WebServer\WebS
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UDPPing", "UDPPing\UDPPing.pyproj", "{C1394739-F7BE-468D-9C3E-2B9DBCF1DB26}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SMTPMailClient", "SMTPMailClient\SMTPMailClient.pyproj", "{A7B622A6-4ECD-4B91-8788-A31363BEC95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{C354255F-1EDC-4711-B6C3-49B67030F19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1394739-F7BE-468D-9C3E-2B9DBCF1DB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1394739-F7BE-468D-9C3E-2B9DBCF1DB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B622A6-4ECD-4B91-8788-A31363BEC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B622A6-4ECD-4B91-8788-A31363BEC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
